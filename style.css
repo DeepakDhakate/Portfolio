@@ -494,7 +494,7 @@ label {
     margin: 0px auto;
     padding: 50px clamp(10px, 5vw, 100px) 50px clamp(10px, 5vw, 100px);
     /* background-color: rgba(17, 24, 51, 1); */
-    background-color: #111833;;
+    background-color: #111833;
 
     /* position: relative;
     z-index: 2; */
@@ -805,6 +805,157 @@ label {
         border-radius: 0%;
     }
 }
+
+
+
+
+
+
+
+
+
+
+/* Contact Form */
+
+.inquiry-form {
+    width: 100%;
+    height: auto;
+    background-color: #111833;
+
+    padding: 50px clamp(10px, 7vw, 120px) 100px clamp(10px, 7vw, 120px);
+
+    /* border: 10px solid darkred; */
+}
+
+.inquiry-form h2 {
+    text-align: center;
+    color: #1EC85C;
+    font-size: 32px;
+    font-weight: 600;
+    padding-bottom: 50px;
+}
+
+.inquiry-form-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    /* border: 5px solid coral; */
+}
+
+.inquiry-form-left {
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.inquiry-form-left input {
+    width: 98%;
+    padding: 12px 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    margin: 12px 10px;
+    border: 1px solid #999;
+    outline: none;
+    background-color: rgba(25, 35, 77, 0.5);
+    color: white;
+}
+
+.inquiry-form-right {
+    width: 48%;
+    
+}
+
+.inquiry-form-right textarea {
+    width: 98%;
+    height: 90%;
+    padding: 12px 15px;
+    font-size: 18px;
+    border-radius: 5px;
+    margin: 12px 10px;
+    border: 1px solid #999;
+    outline: none;
+    background-color: rgba(25, 35, 77, 0.5);
+    color: white;
+}
+
+.inquiry-submit-btn {
+    margin: 30px auto;
+    width: 160px;
+    /* border: 5px solid; */
+}
+
+.inquiry-submit-btn input {
+    font-size: 18px;
+    padding: 15px 55px;
+    color: white;
+    background-color: #1CBE59;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+
+
+
+
+
+
+/* Copyright Section */
+
+.copyright{
+    width: 100%;
+    height: auto;
+    padding: 0px clamp(10px, 8vw, 100px) 0px clamp(10px, 8vw, 100px);
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    background: #1EC85C;
+    /* border: 5px solid #152238; */
+}
+.copyright-container h4{
+    color: white;
+    font-weight: 400;
+    padding: 30px 30px;
+}
+.copyright-social-media{
+    margin: 0px 20px;
+}
+.copyright .social-media-list{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.copyright .social-media-list i{
+    font-size: 20px;
+    /* padding: 0px 40px; */
+    color: white;
+    padding: clamp(20px, 5vw, 30px);
+    
+}
+.copyright #active{
+    color: #ce3333;
+    background: rgba(0, 0, 0, 0.1);
+}
+.copyright .social-media-list i:hover{
+    color: #ce3333;
+    background: rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*  Tablets*/
